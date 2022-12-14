@@ -32,4 +32,6 @@ function addGuestThree() {
 function reset() {
   homeScoreNum.innerText = 0;
   guestScoreNum.innerText = 0;
+  guestScore = 0;
+  homeScore = 0;
 }
