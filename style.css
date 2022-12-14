@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  background-image: url("Basketball.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  color: #f94f6d;
+  width: 117px;
+  height: 120px;
+  left: 100px;
+  top: 125px;
+  font-family: "Graduate", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  /* or 141% */
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  width: 149px;
+  height: 36px;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: bolder;
+  font-size: xx-large;
+  line-height: 36px;
+  margin: 10px;
+  font-family: "Graduate", cursive;
+  /* identical to box height, or 90% */
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid white;
+  background-color: rgb(27, 36, 74);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.score-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.scoreDisplay {
+  display: flex;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 255px;
+  height: 220px;
+  /* left: 337px;
+  top: 125px; */
+  align-content: center;
+}
+
+button {
+  box-sizing: border-box;
+  width: 45px;
+  height: 45px;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  color: #9aabd8;
+  background-color: rgb(27, 36, 74);
+  margin: 15px;
+  font-size: x-large;
+}
+button:hover {
+  color: white;
+}
+.button-div {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
